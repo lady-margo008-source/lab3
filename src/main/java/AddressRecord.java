@@ -3,8 +3,8 @@ public class AddressRecord {
     private final String city;
     private final String street;
     private final String house;
-    private final Integer floor;
-    public AddressRecord(String city, String street, String house, Integer floor){
+    private final int floor;
+    public AddressRecord(String city, String street, String house, int floor) {
         this.city=city;
         this.street=street;
         this.house=house;
